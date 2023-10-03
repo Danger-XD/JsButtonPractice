@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#card {
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  user-select: none;
+}
+#card img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+#card h1 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+#card h5 {
+  font-size: 1.1rem;
+  color: red;
+  margin: 10px 0;
+}
+#card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: cornflowerblue;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 10px;
+  cursor: pointer;
+}
+#card #remove {
+  background-color: darkgrey;
+  color: black;
+}
